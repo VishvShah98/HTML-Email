@@ -1,0 +1,16 @@
+// Language variable (set to 'EN' as default value)
+let language = 'FR'; // Change this value to 'FR' to test different outputs
+
+// Function to print the language based on the variable
+function printLanguage(language) {
+    if (language === 'EN') {
+        console.log('English');
+    } else if (language === 'FR') {
+        console.log('French');
+    } else {
+        console.log('Unknown language');
+    }
+}
+
+// Function to print the language
+printLanguage(language);
